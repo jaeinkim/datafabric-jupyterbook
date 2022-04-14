@@ -1,53 +1,48 @@
-- file: intro
-
-- part: pydatafabric package
+format: jb-book
+root: intro
+parts:
+- caption: pydatafabric package
   chapters:
-    - file: pydatafabric
-
-- part: Training/Prediction Guides
+  - file: pydatafabric
+- caption: Training/Prediction Guides
   chapters:
-    - file: eda
-    - file: training
-    - file: prediction
-    - file: prediction_result_upload
-    - file: scheduling
-
-- part: scheduling
+  - file: eda
+  - file: training
+  - file: prediction
+  - file: prediction_result_upload
+- caption: scheduling
   chapters:
-    - file: scheduling
-
-- part: mlops-sdk package
+  - file: scheduling
+- caption: mlops-sdk package
   chapters:
-    - file: mlops-sdk
-
-- part: Best Practices
+  - file: mlops-sdk
+- caption: Best Practices
   chapters:
-    - file: best-practices/bq_client
-    - file: best-practices/bq_insert_overwrite
-    - file: best-practices/bq_load_query_result_to_table
-    - file: best-practices/bq_pandas
-    - file: best-practices/bq_table_to_df
-    - file: best-practices/bq_to_aws_ddb
-    - file: best-practices/bq_to_azure_blob
-    - file: best-practices/bq_to_database
-    - file: best-practices/bq_to_redis
-    - file: best-practices/bq_to_s3_with_awsenv
-    - file: best-practices/bq_to_s3_with_csv
-    - file: best-practices/bq_to_s3_with_csv_gzip
-    - file: best-practices/bq_to_s3_with_parquet
-    - file: best-practices/check_oracle_client
-    - file: best-practices/check_oracle_connection
-    - file: best-practices/kafka-to-file
-    - file: best-practices/oracle_to_bq
-    - file: best-practices/oracle_to_file
-    - file: best-practices/redis_cluster_sample
-    - file: best-practices/redis_interface
-    - file: best-practices/test_ftp
-    - file: best-practices/test_pip
-    - file: best-practices/test_ssh
-    - file: best-practices/util_sendmail
-    - file: best-practices/util_slack_send
-
-- part: DataFabric Runtime Image
+  - file: best-practices/bq_client
+  - file: best-practices/bq_insert_overwrite
+  - file: best-practices/bq_load_query_result_to_table
+  - file: best-practices/bq_pandas
+  - file: best-practices/bq_table_to_df
+  - file: best-practices/bq_to_aws_ddb
+  - file: best-practices/bq_to_azure_blob
+  - file: best-practices/bq_to_database
+  - file: best-practices/bq_to_redis
+  - file: best-practices/bq_to_s3_with_awsenv
+  - file: best-practices/bq_to_s3_with_csv
+  - file: best-practices/bq_to_s3_with_csv_gzip
+  - file: best-practices/bq_to_s3_with_parquet
+  - file: best-practices/check_oracle_client
+  - file: best-practices/check_oracle_connection
+  - file: best-practices/kafka-to-file
+  - file: best-practices/oracle_to_bq
+  - file: best-practices/oracle_to_file
+  - file: best-practices/redis_cluster_sample
+  - file: best-practices/redis_interface
+  - file: best-practices/test_ftp
+  - file: best-practices/test_pip
+  - file: best-practices/test_ssh
+  - file: best-practices/util_sendmail
+  - file: best-practices/util_slack_send
+- caption: DataFabric Runtime Image
   chapters:
-    - file: packages
+  - file: packages

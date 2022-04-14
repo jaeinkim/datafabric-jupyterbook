@@ -138,3 +138,7 @@ Dockerfile
 # DS_Store
 .DS_Store
 **/.DS_Store
+
+# Jupyter
+_build/
+.ipynb_checkpoints
