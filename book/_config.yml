@@ -1,0 +1,11 @@
+# Book settings
+title: DataFabric User Guide
+author: Emart Inc. Data&Infra Devision
+logo: logo.png
+
+execute:
+  timeout: 300
+
+latex:
+  latex_documents:
+    targetname: book.tex
