@@ -13,9 +13,9 @@ parts:
 - caption: scheduling
   chapters:
   - file: scheduling
-- caption: mlops-sdk package
-  chapters:
-  - file: mlops-sdk
+# - caption: mlops-sdk package
+#   chapters:
+#   - file: mlops-sdk
 - caption: Best Practices
   chapters:
   - file: best-practices/bq_client
@@ -24,7 +24,7 @@ parts:
   - file: best-practices/bq_pandas
   - file: best-practices/bq_table_to_df
   - file: best-practices/bq_to_azure_blob
-  # - file: best-practices/bq_to_database
+  - file: best-practices/bq_to_database
   - file: best-practices/bq_to_redis
   - file: best-practices/bq_to_s3_with_awsenv
   - file: best-practices/bq_to_s3_with_csv
@@ -37,8 +37,8 @@ parts:
   - file: best-practices/oracle_to_bq_with_spark
   - file: best-practices/oracle_to_s3
   - file: best-practices/oracle_us7ascii_to_utf_korean
-  # - file: best-practices/redis_cluster_sample
-  # - file: best-practices/redis_interface  
+  - file: best-practices/redis_cluster_sample
+  - file: best-practices/s3_to_redis
   - file: best-practices/sample_git_download
   - file: best-practices/util_sendmail
   - file: best-practices/util_slack_send
