@@ -25,7 +25,7 @@ parts:
   - file: best-practices/bq_table_to_df
   - file: best-practices/bq_to_azure_blob
   - file: best-practices/bq_to_database
-  - file: best-practices/bq_to_redis
+  - file: best-practices/bq_to_redis_using_pandas.ipynb
   - file: best-practices/bq_to_s3_with_awsenv
   - file: best-practices/bq_to_s3_with_csv
   - file: best-practices/bq_to_s3_with_parquet
