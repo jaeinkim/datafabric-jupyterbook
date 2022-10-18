@@ -10,12 +10,12 @@ parts:
 - caption: Best Practices
   chapters:
   - file: best-practices/ml-pipeline/eda
-  - file: best-practices/ml-pipeline/feature-engineering
-  - file: best-practices/ml-pipeline/ml-pipeline
-  - file: best-practices/ml-pipeline/mlops-sdk
-  - file: best-practices/ml-pipeline/prediction_result_upload
-  - file: best-practices/ml-pipeline/prediction
-  - file: best-practices/ml-pipeline/training
+  # - file: best-practices/ml-pipeline/feature-engineering
+  # - file: best-practices/ml-pipeline/ml-pipeline
+  # - file: best-practices/ml-pipeline/mlops-sdk
+  # - file: best-practices/ml-pipeline/prediction_result_upload
+  # - file: best-practices/ml-pipeline/prediction
+  # - file: best-practices/ml-pipeline/training
   - file: best-practices/bq_client
   - file: best-practices/bq_insert_overwrite
   - file: best-practices/bq_load_query_result_to_table
@@ -24,7 +24,7 @@ parts:
   - file: best-practices/bq_to_azure_blob
   - file: best-practices/bq_to_database
   - file: best-practices/bq_to_kafka_using_pandas.ipynb
-  - file: best-practices/bq_to_kafka_using_spark.ipynb
+  # - file: best-practices/bq_to_kafka_using_spark.ipynb
   - file: best-practices/bq_to_redis_using_pandas.ipynb
   - file: best-practices/bq_to_redis_using_spark.ipynb
   - file: best-practices/bq_to_s3_with_awsenv
@@ -33,7 +33,7 @@ parts:
   - file: best-practices/bq_to_s3_with_text_gzip
   - file: best-practices/check_oracle_client
   - file: best-practices/check_oracle_connection
-  - file: best-practices/kafka-to-file
+  # - file: best-practices/kafka-to-file
   - file: best-practices/oracle_to_bq_with_pandas
   - file: best-practices/oracle_to_bq_with_spark
   - file: best-practices/oracle_to_s3
