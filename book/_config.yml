@@ -9,3 +9,5 @@ execute:
 latex:
   latex_documents:
     targetname: book.tex
+
+only_build_toc_files: true
