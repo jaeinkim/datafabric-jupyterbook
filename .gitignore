@@ -142,3 +142,6 @@ Dockerfile
 # Jupyter
 _build/
 .ipynb_checkpoints
+
+push.sh
+
